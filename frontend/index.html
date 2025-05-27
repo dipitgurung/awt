@@ -1,65 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML</title>
-  <style> 
-
-    .buttons {
-      display: flex;
-      gap: 10px;
-      margin-bottom: 8px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  
-  <div>
-    <h4 style="
-    margin: 0;
-    padding: 8px;
-    background-color: #000; 
-    color: #fff;  ">Calculator</h4>
+    <div clas="calc-pad">
+        <div>
 
-    <div style="
-    border-radius: 4px;
-    margin: 8px 0;
-    font-size: 12px;
-    color: #000;
-    border: 1px solid #000;
-    padding: 8px;
-    background-color: #0002; 
-    ">
-      Answer
-    </div>
 
-    <div class="buttons">
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-    </div>
+        </div>
+        <div>
+            <button class="function-button">AC</button>
+            <button class="function-button">+</button>
+            <button class="function-button">%</button>
+            <button class="operator">÷</button>
+        </div>
 
-    <div class="buttons">
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-    </div>
+        <div>
+            <button class="digit" value="7">7</button>
+            <button class="digit" value="7">8</button>
+            <button class="digit" value="7">9</button>
+            <button class="operator">x</button>
+        </div>
 
-    <div class="buttons">
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-    </div>
+        <div>
+            <button class="digit">4</button>
+            <button class="digit">5</button>
+            <button class="digit">6</button>
+            <button class="operator">-</button>
+        </div>
 
-    <div class="buttons">
-      <button>+</button>
-      <button>-</button>
-      <button>=</button>
-    </div>
-    
+        <div>
+            <button class="digit">1</button>
+            <button class="digit">2</button>
+            <button class="digit">3</button>
+            <button class="operator">+</button>
+             </div>
 
-  </div>
-  <script src="../backend/calculator.js"></script>
+             <div>
+                <button class="function-button">C</button>
+                <button class="digit">0</button>
+                <button class="digit">,</button>
+                <button class="operator">=</button>
+             </div>
+ </div>   
 </body>
 </html>
